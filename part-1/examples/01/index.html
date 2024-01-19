@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Vue </title>
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{ time === "Morning" ? "Good Morning": "Good Evening!"}}</h1>
+        <h2>{{ greeting}}</h2>
+        <h3>{{ this.greeting }}</h3>
+        <h4>{{ sayHelloWorld() }}</h4>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
